@@ -17,15 +17,19 @@ this repo is based on this two tutorials:
 
 2. **Installing dependencis**
 
-```bash
+    ```bash
     :~$ npm i typescript
     :~$ npm i -D @types/node ts-node nodemon
     ```
+
 3. **Setting typescript config**
+
     ```bash
     :~$ npx tsconfig.json
     ```
+
 4. **Setting Linters configs**
+
     ```bash
     :~$ npm i -D eslint eslint-config-prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser
     ```
