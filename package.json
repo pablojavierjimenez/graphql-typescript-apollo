@@ -1,0 +1,34 @@
+{
+  "name": "graphql-typescript-apollo",
+  "version": "1.0.0",
+  "description": "this repo is based on this two tutorials: - [Set up Node.js project with Typescript, ESLint and Prettier](https://blog.tericcabrel.com/set-up-a-nodejs-project-with-typescript-eslint-and-prettier/) - [Create a GraphQL application with Node.js and Apollo server 3](https://blog.tericcabrel.com/create-a-graphql-application-with-node-js-and-apollo/)",
+  "main": "index.js",
+  "scripts": {
+    "eslint:fix": "eslint --fix",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch \"*.ts\"  --watch \"*.json\" --exec \"ts-node\" ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablojavierjimenez/graphql-typescript-apollo.git"
+  },
+  "author": "Pablo Javier Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablojavierjimenez/graphql-typescript-apollo/issues"
+  },
+  "homepage": "https://github.com/pablojavierjimenez/graphql-typescript-apollo#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.4",
+    "@typescript-eslint/eslint-plugin": "^5.40.0",
+    "@typescript-eslint/parser": "^5.40.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
